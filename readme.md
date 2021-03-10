@@ -93,7 +93,7 @@ npm run dev
 * 需在函式或方法增加 [JSDoc](https://docs.microsoft.com/zh-tw/visualstudio/ide/create-jsdoc-comments-for-javascript-intellisense) 註解。
 * 必需說明的項目為 **`@description`**(功能說明)、**`@param`**(參數型態、用途說明) 、**`@returns`**(回傳值型態與說明，無回傳值時不需註解)。
 ## 練習項目 ##
-> **注意：請依照上述的專案構結、命名規則與練習項目提供的畫面圖片進行開發。**  
+> **注意：請依照上述的專案結構、命名規則與練習項目提供的畫面圖片進行開發。**  
 ### **※項目 1. 新增一個練習項目清單頁面，透過選單連結可以開啟該頁面。** ###
   **需求說明**  
     ![practice page](readmeImg/practice_page.png)  
@@ -126,7 +126,7 @@ npm run dev
 ### **※項目 4. 建立一個能把數字轉為有千分位的字串且保留小數位數的 filter，並在頁面展示 filter 的功能。** ###
   ![filter demo](readmeImg/filter_demo.png)  
   **需求說明**  
-    1. 新建一個 filter 功能，參照目前專案的構結檔案應放置在 /src/utils/filters 下，filter 名稱為"**commafy**"，作法可參考 filters 內的 demo.js。  
+    1. 新建一個 filter 功能，參照目前專案的結構檔案應放置在 /src/utils/filters 下，filter 名稱為"**commafy**"，作法可參考 filters 內的 demo.js。  
     2. 此 filter **可將數字轉為有千分位的字串且保留小數位數**，例如將 10000.00 轉為 10,000.00、1000 轉為 1,000。  
     3. 此 filter function 需加上 JSDoc 註解。  
     4. 建立一個 FilterDemo 頁面，**展示 commafy filter 功能是否符合需求**。  
